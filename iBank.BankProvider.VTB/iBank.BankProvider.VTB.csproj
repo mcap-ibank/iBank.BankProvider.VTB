@@ -3,7 +3,6 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\iBank.Core\iBank.Core\iBank.Core.csproj" />
+    <ProjectReference Include="$(SolutionDir)\iBank.Core\iBank.Core\iBank.Core.csproj" />
   </ItemGroup>
 
 </Project>
